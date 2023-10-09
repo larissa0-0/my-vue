@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts">
-    import { Vue, Options } from "vue-class-component";
+   import { Vue, Options } from "vue-class-component";
     @Options({
         created(){
             const a:string = '123'

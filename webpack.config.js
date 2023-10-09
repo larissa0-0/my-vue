@@ -43,14 +43,14 @@ module.exports = {
                     {loader:'less-loader'}
                 ]
             },
-             {// 添加解析ts的规则
-                test:/\.tsx$/,
+            {// 添加解析ts的规则
+                test: /\.tsx?$/,
                 loader: 'ts-loader',
                 exclude: /node_modules/,
-                options: {
-                    appendTsSuffixTo: [/\.vue$/]
+                options:{
+                    appendTsSuffixTo:[/\.vue$/],
                 }
-            }
+            },
         ]
     },
     devtool: 'inline-source-map',
