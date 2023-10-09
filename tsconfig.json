@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      // 严格模式
+      "strict": true,
+      // 处理模块
+      "moduleResolution": "node",
+      // 编译输出 ES5 版本
+      "target": "es5",
+      // 启用装饰器
+      "experimentalDecorators": true
+    }
+  }
+  
